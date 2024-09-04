@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_back"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="371dp"
+        android:text="Login"
+        android:textColor="#FFECD0"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="434dp"
+        android:text="Phone number"
+        android:textColor="#FFECD0"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/login_mobile_number"
+        android:layout_width="285dp"
+        android:layout_height="39dp"
+        android:layout_margin="10dp"
+        android:layout_x="23dp"
+        android:layout_y="455dp"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:elevation="0dp"
+        android:inputType="phone"
+        android:padding="1dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="312dp"
+        android:layout_y="452dp"
+        android:backgroundTint="#FFECD0"
+        android:text="Send OTP"
+        android:textColor="#EC4D76" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="501dp"
+        android:text="OTP"
+        android:textColor="#FFECD0"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextPhone2"
+        android:layout_width="287dp"
+        android:layout_height="41dp"
+        android:layout_x="23dp"
+        android:layout_y="526dp"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:elevation="0dp"
+        android:inputType="phone"
+        android:padding="1dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="647dp"
+        android:text="New Here?"
+        android:textColor="#FFECD0"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="115dp"
+        android:layout_y="647dp"
+        android:text="Register"
+        android:textColor="#FFECD0"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="109dp"
+        android:layout_height="37dp"
+        android:layout_x="292dp"
+        android:layout_y="628dp"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:backgroundTint="#FFECD0"
+        android:text="Login"
+        android:textColor="#000000" />
+
+
+</AbsoluteLayout>
